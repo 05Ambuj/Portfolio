@@ -1,0 +1,16 @@
+.projects{
+    width: 90%;
+    margin: auto;
+    min-height: 80vh;
+    @include flex(space-around,center,row);
+    text-align: center;
+    flex-wrap: wrap;
+    h2{
+        margin: 5rem;
+    }
+}
+
+.travellera,.kristine{
+    flex: 1 1 40rem;
+
+}
